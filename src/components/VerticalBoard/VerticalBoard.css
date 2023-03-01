@@ -31,3 +31,26 @@
     transition-duration: 250ms;
     color: #FFFFFF;
 }
+
+.ReactModal__Overlay {
+    background-color: rgb(0 0 0 / 40%) !important;
+    width: 100%  !important;
+    display: flex  !important;
+    position: fixed  !important;
+    inset: 0px  !important;
+    flex-direction: column  !important;
+    flex-wrap: nowrap  !important;
+    align-content: center  !important;
+    justify-content: center  !important;
+    align-items: center  !important;
+    height: 100%  !important;
+}
+
+.ReactModal__Content {
+    position: unset !important;
+    background-color: #2B2D36 !important;
+    width: 60%;
+    height: 50%;
+    border: unset !important;
+    border-radius: 5px !important;
+}
