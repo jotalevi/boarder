@@ -1,0 +1,66 @@
+.boardFrame {
+    background-color: #151515;
+    width: inherit;
+    height: 100%;
+}
+
+.sideBarItem {
+    transition: ease all;
+    transition-duration: 250ms;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    color: #CACACA;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.sideBarItemText {
+    margin-left: 5px;
+}
+
+.sideBarItem:hover {
+    transition: ease all;
+    transition-duration: 250ms;
+    color: white;
+}
+
+.boardName {
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.boardFrameFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:3%;
+    padding-right:3%;
+    max-height: 10%;
+}
+
+.boardFiltersDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 11%;
+}
+
+.boardFrameBoards {
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}

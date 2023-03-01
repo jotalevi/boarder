@@ -1,0 +1,86 @@
+.taskCard {
+    transition: ease all;
+    transition-duration: 250ms;
+    width: 100%;
+    background-color: #2B2D36;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    min-height: 80px;
+    max-height: 250px;
+}
+
+.taskCard:hover {
+    transition: ease all;
+    transition-duration: 250ms;
+    background-color: #21232c;
+    color: white;
+    border-radius: 10px;
+}
+
+.taskColorLip {
+    width: 3px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #6bbbe8;
+}
+
+.cardFlexContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.taskIdp {
+    margin: 0;
+    padding: 0;
+}
+
+.taskTitle {
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+}
+
+.peopleListOrAdd {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.peopleCircle {
+    transition: ease all;
+    transition-duration: 250ms;
+    background-color: #1B1D25;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -22px;
+}
+
+.peopleCircle:hover {
+    transition: ease all;
+    transition-duration: 250ms;
+    background-color: #ffffff;
+    color: #000000;
+    z-index: 10;
+}

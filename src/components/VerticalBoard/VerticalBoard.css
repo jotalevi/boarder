@@ -1,0 +1,33 @@
+.vhBoard {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: #8A8A8A;
+    font-size: 11px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.vhBoardTitleBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.vhTabItems {
+    transition: ease all;
+    transition-duration: 250ms;
+    color: #8A8A8A;
+}
+
+.vhTabItems:hover {
+    transition: ease all;
+    transition-duration: 250ms;
+    color: #FFFFFF;
+}
